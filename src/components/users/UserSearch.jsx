@@ -10,9 +10,9 @@ function UserSearch() {
     const { users, clearUsers, dispatch } = useContext(GithubContext)
     const { showAlert } = useContext(AlertContext)
 
-    const handleClear = (e) => {
-        clearUsers();
-    }
+    // const handleClear = (e) => {
+    //     clearUsers();
+    // }
     const handleChange = (e) => setText(e.target.value)
 
     const handleSubmit = async (e) => {
