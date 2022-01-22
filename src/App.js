@@ -1,7 +1,7 @@
 import Navbar from "./components/layout/Navbar";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Footer from "./components/layout/Footer";
-import About from "./pages/About";
+import About from "./pages/About1";
 import Notfound from "./pages/Notfound";
 import Home from "./pages/Home";
 import { GithubProvider } from "./components/context/github/GithubContext";
